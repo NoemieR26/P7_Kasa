@@ -1,0 +1,132 @@
+.carrousel {
+   position: relative;
+    margin: 0 4rem; 
+}
+
+.housing_picture {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 20rem;
+    border-radius: 1.5625rem;
+}
+
+.housing_page {
+    width: 95%;
+    min-height: 35rem;
+    margin: 1rem auto 7rem auto;  
+}
+    
+.housing_page_header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 1rem 0;
+}
+
+.housing_page_header_infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.housing_page_header_infos_title {
+    font-size: 35px;
+    margin: 0;
+}
+        
+.housing_page_header_infos_subtitle {
+    font-size: 18px;
+    margin: 0.2rem 0 1rem 0;
+}
+
+.housing_page_header_infos_all_tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.housing_page_header_infos_one_tag {
+    font-size: 15px;
+    color: white;
+    background: #ff5656;
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.1);
+    margin: 0 1rem 0 0;
+    padding: 0.2rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.header_hoster {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header_hoster_infos {
+    display: flex;
+    align-items: center;
+}              
+
+.header_hoster_infos_name {
+    width: 120px;
+    text-align: right;
+    margin-right: 0.5rem;
+    font-size: 18px;
+}
+                
+.header_hoster_infos_img {
+    width: 3.3rem;
+    height: 3.3rem;
+    border-radius: 3rem;
+    object-fit: cover;
+    box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.2);
+}    
+
+.housing_page_collapses {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.housing_page_collapses_content {
+    margin: 1rem 0;
+    width: 47%;
+}
+
+.housing_page_collapses_content_ul {
+    margin: 0;
+}
+
+.hoster_ratings {
+    margin-top: 1rem;
+    text-align: right;
+}
+
+.hoster_ratings_star {
+    padding-left: 0.3rem;
+    font-size: 25px;
+}
+
+.hoster_ratings_star_grey {
+    color: rgb(188, 186, 186);
+}
+
+.error_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.error_page_text {
+    font-size: 30px;
+    margin: 2rem;
+}
+
+.error_page_link {
+    font-size: 20px;
+    margin-top: 3rem;
+    margin-bottom: 1.7rem;
+    text-decoration: underline;
+}

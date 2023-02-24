@@ -1,0 +1,42 @@
+.banner2 {
+    position: relative;
+    margin: 0 4rem;
+}
+
+.bannerImg2 {
+    width: 100%;
+    height: 13.9375rem;
+    object-fit: cover;
+    border-radius: 1.5625rem;
+}
+
+.bannerWrapper2 {
+    height: 13.9375rem;
+    border-radius: 1.5625rem;
+    background-color: rgba(0, 0, 0, .2);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.about_collapses {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 1.5rem;
+        margin-bottom: 6rem;
+}
+
+.about_collapses_content {
+            margin-bottom: 0.5rem;
+            width: 80%;
+}
+
+main {
+    display: flex !important;
+    flex-direction: column !important;
+    align-self: center !important ;
+    max-width: 1300px;
+    padding: 0;
+}
