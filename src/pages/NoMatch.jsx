@@ -6,7 +6,9 @@ export default function NoMatch() {
     return(
         <>
             <Header />
-            <NoMatchContent />
+                <main>
+                   <NoMatchContent /> 
+                </main>
             <Footer /> 
         </>
     )

@@ -7,8 +7,10 @@ export default function Home() {
     return(
         <>
             <Header />
-            <HomeBanner />
-            <DisplayCards />
+                <main>
+                    <HomeBanner />
+                    <DisplayCards /> 
+                </main>
             <Footer />
         </>
     )

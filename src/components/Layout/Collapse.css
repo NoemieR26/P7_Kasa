@@ -12,13 +12,13 @@
 }
 
 .collapse_header_title {
-            padding: 0.4rem 0.5rem;
+            padding: 0.4rem 1rem;
             margin: 0;
             font-size: 18px;
 }
 
 .collapse_header_icon {
-            padding: 0.4rem 0.5rem;
+            padding: 0.4rem 1.5rem;
             font-size: 20px;
 }
 
@@ -33,6 +33,10 @@
         font-size: 16px;
         line-height: 23px;
         animation: slide 1s ease-in;
+}
+
+ul {
+    line-height: 0.5rem;
 }
 
 @keyframes slide {
@@ -52,5 +56,15 @@
     
     100% {
         max-height: 100%;
+    }
+}
+
+@media(max-width: 768px) {
+    .collapse_header_title {
+        font-size: 15px;
+    }
+
+    .collapse_content {
+        font-size: 14px;
     }
 }

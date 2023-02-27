@@ -57,4 +57,7 @@
     .carousel_controls_arrows {
         height: 30px;
     }
+    .carousel_container_img {
+        height: 255px;
+    }
 }

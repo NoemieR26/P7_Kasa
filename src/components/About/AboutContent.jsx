@@ -1,4 +1,3 @@
-import React from 'react';
 import Collapse from "../Layout/Collapse";
 import"./About.css";
 
@@ -7,23 +6,23 @@ export default function AboutContent() {
         <section className="about_collapses">
             <div className="about_collapses_content">
                 <Collapse
-                    title='Fiabilité'
-                    content='Les annonces postées sur Kasa garantissent une fiabilité totale. 
+                    title="Fiabilité"
+                    content="Les annonces postées sur Kasa garantissent une fiabilité totale. 
                     Les photos sont conformes aux logements, et toutes les informations 
-                    sont régulièrement vérifiées par nos équipes.'
+                    sont régulièrement vérifiées par nos équipes."
                 />
             </div>
             <div className="about_collapses_content">
                 <Collapse
-                    title='Respect'
-                    content='La bienveillance fait partie des valeurs fondatrices de Kasa. 
+                    title="Respect"
+                    content="La bienveillance fait partie des valeurs fondatrices de Kasa. 
                     Tout comportement discriminatoire ou de perturbation du voisinage
-                    entraînera une exclusion de note plateforme.'
+                    entraînera une exclusion de note plateforme."
                 />
             </div>
             <div className="about_collapses_content">
                 <Collapse
-                    title='Service'
+                    title="Service"
                     content="Nos équipes se tiennent à votre disposition pour vous fournir une 
                     expérience parfaite. N'hésitez pas à nous contacter si vous avez 
                     la moindre question."
@@ -31,7 +30,7 @@ export default function AboutContent() {
             </div>
             <div className="about_collapses_content">
                 <Collapse
-                    title='Sécurité'
+                    title="Sécurité"
                     content="La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que 
                     pour les voyageurs, chaque logement correspond aux critères de sécurité
                     établis par nos services. En laissant une note aussi bien à l'hôte qu'au

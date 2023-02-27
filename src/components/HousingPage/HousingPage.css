@@ -1,3 +1,7 @@
+h2 {
+    font-weight: 500;
+    line-height: normal;
+}
 .carrousel {
    position: relative;
     margin: 0 4rem; 
@@ -12,9 +16,7 @@
 }
 
 .housing_page {
-    width: 95%;
-    min-height: 35rem;
-    margin: 1rem auto 7rem auto;  
+    margin: 1rem auto 5rem auto;  
 }
     
 .housing_page_header {
@@ -110,7 +112,7 @@
     color: rgb(188, 186, 186);
 }
 
-.error_page {
+.housing_error_page {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,14 +121,91 @@
     padding: 1rem;
 }
 
-.error_page_text {
+.housing_error_page_text {
     font-size: 30px;
     margin: 2rem;
 }
 
-.error_page_link {
+.housing_error_page_link {
     font-size: 20px;
     margin-top: 3rem;
     margin-bottom: 1.7rem;
     text-decoration: underline;
+}
+
+.collapse_content ul {
+    padding: 0;
+}
+
+@media(max-width: 768px) {
+    .housing_page {
+        padding: 0 1.5rem 0 1.5rem;
+    }
+
+    .housing_page_header {
+        flex-direction: column;
+        margin-bottom: 0 !important;
+    }
+            
+    .housing_page_header_infos_title {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .housing_page_header_infos_subtitle {
+        font-size: 14px;
+    }
+
+    .housing_page_header_infos_one_tag {
+        font-size: 10px;
+        margin-bottom: 1rem;
+    }
+
+    .housing_page_collapses {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .housing_page_collapses_content {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .header_hoster {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    
+    .header_hoster_infos {
+        align-items: center;
+    }
+
+    .header_hoster_infos_name {
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header_hoster_infos_img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+            
+    .hoster_ratings {
+        padding: 0 0.2rem 1rem 0;
+    }
+
+    .hoster_ratings_star {
+        padding: 0 0.2rem 3rem 0;
+        font-size: 18px;
+    }
+
+    .housing_error_page_text {
+        font-size: 22px;
+    }
+
+    .housing_error_page_link {
+        font-size: 14px;
+    }
 }

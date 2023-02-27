@@ -6,7 +6,9 @@ export default function Housing() {
     return(
         <>
             <Header />
-            <HousingPage />
+                <main>
+                    <HousingPage />
+                </main>
             <Footer />
         </>
     )

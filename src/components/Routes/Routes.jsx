@@ -1,8 +1,8 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import About from '../../pages/About';
-import NoMatch from '../../pages/NoMatch';
-import Home from '../../pages/Home';
-import Housing from '../../pages/Housing';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import About from "../../pages/About";
+import NoMatch from "../../pages/NoMatch";
+import Home from "../../pages/Home";
+import Housing from "../../pages/Housing";
 
 export default function IndexRoutes() {
     return(

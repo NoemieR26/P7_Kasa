@@ -7,11 +7,10 @@ export default function About() {
     return(
         <>
             <Header />
-            <main>
-                <AboutBanner />
-                <AboutContent />
-            </main>
-                
+                <main>
+                    <AboutBanner />
+                    <AboutContent />
+                </main>
             <Footer />
         </>
     )
