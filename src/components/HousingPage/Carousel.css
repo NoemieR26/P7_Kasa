@@ -33,7 +33,7 @@
     text-align: center;
 }
 
-.carousel_controls_arrows {
+.carousel_controls_angles {
     height: 80px;
     opacity: 1;
     cursor: pointer;
@@ -54,7 +54,7 @@
     .carousel_counter {
         display: none;
     }
-    .carousel_controls_arrows {
+    .carousel_controls_angles {
         height: 30px;
     }
     .carousel_container_img {

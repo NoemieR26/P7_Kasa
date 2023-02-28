@@ -1,17 +1,11 @@
-import Header from "../components/Layout/Header"
 import HomeBanner from "../components/Home/HomeBanner"
 import DisplayCards from "../components/Home/DisplayCards"
-import Footer from "../components/Layout/Footer"
 
 export default function Home() {
     return(
         <>
-            <Header />
-                <main>
-                    <HomeBanner />
-                    <DisplayCards /> 
-                </main>
-            <Footer />
+            <HomeBanner />
+            <DisplayCards /> 
         </>
     )
 }

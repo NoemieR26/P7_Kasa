@@ -16,7 +16,8 @@ h2 {
 }
 
 .housing_page {
-    margin: 1rem auto 5rem auto;  
+    margin: 0 auto 5rem auto; 
+    padding: 0 1.5rem 0 1.5rem; 
 }
     
 .housing_page_header {
@@ -105,11 +106,7 @@ h2 {
 
 .hoster_ratings_star {
     padding-left: 0.3rem;
-    font-size: 25px;
-}
-
-.hoster_ratings_star_grey {
-    color: rgb(188, 186, 186);
+    width: 30px;
 }
 
 .housing_error_page {
@@ -197,8 +194,7 @@ h2 {
     }
 
     .hoster_ratings_star {
-        padding: 0 0.2rem 3rem 0;
-        font-size: 18px;
+        width: 20px;
     }
 
     .housing_error_page_text {

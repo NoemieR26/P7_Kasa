@@ -1,3 +1,14 @@
+P7_Kasa
+
+Une fois le projet installé, rendez-vous sur http://localhost:3000/ 
+
+REACT ☆ Create React App ☆ React Router
+
+## Langages utilisés :
+
+HTML5 / CSS3 / JavaScript / React
+
+# Installation :
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

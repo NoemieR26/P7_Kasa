@@ -1,9 +1,7 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import pink_star from "../../images/pink_star.png";
+import gray_star from "../../images/gray_star.png";
 import "./HousingPage.css";
 
-const star = <FontAwesomeIcon icon={faStar} />
-const starGrey = <FontAwesomeIcon icon={faStar} />
 
 export default function RatingScale(props) {
     const scaleValue = props.scaleValue
@@ -14,8 +12,8 @@ export default function RatingScale(props) {
         <div className="hoster_ratings">
             {range.map((rangeElem) =>
                 scaleValue >= rangeElem ? 
-                    <span key={rangeElem.toString()} className="hoster_ratings_star">{star}</span> 
-                    : <span key={rangeElem.toString()} className="hoster_ratings_star hoster_ratings_star_grey">{starGrey}</span>
+                    <img key={rangeElem.toString()} className="hoster_ratings_star"src={pink_star} alt="étoile notation pleine"/> 
+                    : <img key={rangeElem.toString()} className="hoster_ratings_star" src={gray_star} alt="étoile notation vide"/>
             )}
         </div>
     )

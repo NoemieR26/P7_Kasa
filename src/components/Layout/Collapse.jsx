@@ -1,25 +1,23 @@
 import { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown, faAngleUp } from "@fortawesome/free-solid-svg-icons";
+import angleDown from "../../images/angle_down.png";
+import angleUp from "../../images/angle_up.png";
 import"./Collapse.css";
 
-const angleDown = <FontAwesomeIcon icon={faAngleDown} />
-const angleUp = <FontAwesomeIcon icon={faAngleUp} />
 
 export default function Collapse(props) {
-    const [ openTab, setOpenTab ] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
 
-    const openTabHandler = () => {
-        setOpenTab((openTab) => !openTab); 
+    const openHandler = () => {
+        setIsOpen((openTab) => !isOpen); 
     };
 
     return (
         <>
-            <div onClick={openTabHandler} className="collapse_header">
+            <div onClick={openHandler} className="collapse_header">
                 <h2 className="collapse_header_title">{props.title}</h2>
-                {!openTab ? <i className="collapse_header_icon">{angleDown}</i> : <i className="collapse_header_icon">{angleUp}</i>}
+                {!isOpen ?  <img className="collapse_header_angle" alt="flèche bas" src={angleDown}/> : <img className="collapse_header_angle" alt="flèche haut" src={angleUp}/>}
             </div>
-            {openTab && 
+            {isOpen && 
                 <div className="collapse_content">{props.content}</div>
             }
         </>
