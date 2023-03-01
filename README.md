@@ -1,8 +1,11 @@
 # P7_Kasa
 
-Une fois le projet installé, rendez-vous sur http://localhost:3000/ 
+https://github.com/NoemieR26/P7_Kasa/issues/1#issue-1604483404
 
 Création d'une application de location de logements avec React
+
+Une fois le projet installé, rendez-vous sur http://localhost:3000/ 
+
 
 ## Langages utilisés :
 
