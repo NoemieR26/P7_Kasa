@@ -1,6 +1,6 @@
 # P7_Kasa
 
-https://github.com/NoemieR26/P7_Kasa/issues/1#issue-1604483404
+![alt tag][222081405-f5315dce-6c0a-4ec6-ba9f-b8f596eebf6f.png](https://user-images.githubusercontent.com/113694736/222081405-f5315dce-6c0a-4ec6-ba9f-b8f596eebf6f.png)
 
 Création d'une application de location de logements avec React
 
