@@ -35,17 +35,17 @@
 }
 
 .housings_container {
-        margin: 0 4rem;
-        background: #e9e9e9;
-        border-radius: 0.8rem;
+    margin: 0 4rem;
+    background: #e9e9e9;
+    border-radius: 0.8rem;
 }
     
 .housings_list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: 1rem;
-        list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+    list-style-type: none;
 }
 
 .housing {
@@ -113,13 +113,13 @@
     }
    
     .housings_container {
-            background-color: transparent;
-            margin: 0 1rem;
-            padding: 0;
+        background-color: transparent;
+        margin: 0 1rem;
+        padding: 0;
     }
         
     .housings_list {
-            padding: 0rem;
+        padding: 0rem;
     }
 
     .housing {
@@ -127,12 +127,12 @@
     }
 
     .housing_card {
-            margin: 1rem 0.5rem;
-            height: auto;
+        margin: 1rem 0.5rem;
+        height: auto;
     }
 
     .housing_card_cover {
-                height: 255px;
+        height: 255px;
     }
 
     h2 {

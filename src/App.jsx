@@ -5,6 +5,7 @@ import NoMatch from "./pages/NoMatch";
 import Home from "./pages/Home";
 import Housing from "./pages/Housing";
 import Footer from "./components/Layout/Footer";
+import"./App.css";
 
 export default function App() {
     return(

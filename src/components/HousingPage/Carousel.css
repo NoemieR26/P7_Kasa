@@ -10,8 +10,9 @@
 }
 
 .carousel_container {
-        display: flex;
-        transition: transform .5s ease;
+    display: flex;
+    transition: transform .5s ease;
+    width: 100%;
 }
 
 .carousel_container_img {

@@ -6,7 +6,7 @@ import "./Carousel.css";
 export default function Carousel(props) {
     const [index, setIndex] = useState(0);
 
-    //Défilement auto
+//Défilement auto
     const timeoutRef = useRef(null);
     const delay = 5000;
     function resetTimeout() {
@@ -28,10 +28,9 @@ export default function Carousel(props) {
       return () => {
         resetTimeout();
       };
-    }, [index]);
+    }, [index, props.img.length]);
 
-    //
-
+//Définition de la taille de l'image pour le défilement
     const imgSize = () => {
         const slideshowImg = document.querySelector(".carousel_container_img");
         if(!slideshowImg){
@@ -39,7 +38,8 @@ export default function Carousel(props) {
         }
         return slideshowImg.width;
     }
-    
+
+//Image suivante
     const nextPicture = () => {
         if(index === props.img.length - 1){
             setIndex(0)
@@ -48,6 +48,7 @@ export default function Carousel(props) {
         }
     }
 
+//Image précédente
     const prevPicture = () => {
         if(index === 0){
             setIndex(props.img.length - 1)
@@ -56,6 +57,7 @@ export default function Carousel(props) {
         }
     }
 
+//Paramètres du Carrousel
     return (
         <div className="carousel">
             <div className="carousel_container" style={{transform: `translateX(-${index * imgSize()}px)`}}>

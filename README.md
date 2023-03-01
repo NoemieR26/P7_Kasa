@@ -1,8 +1,8 @@
-P7_Kasa
+# P7_Kasa
 
 Une fois le projet installé, rendez-vous sur http://localhost:3000/ 
 
-REACT ☆ Create React App ☆ React Router
+Création d'une application de location de logements avec React
 
 ## Langages utilisés :
 
