@@ -9,6 +9,7 @@ export default function Carousel(props) {
 //Défilement auto
     const timeoutRef = useRef(null);
     const delay = 5000;
+    
     function resetTimeout() {
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);
