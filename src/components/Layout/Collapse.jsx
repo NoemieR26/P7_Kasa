@@ -8,7 +8,7 @@ export default function Collapse(props) {
     const [isOpen, setIsOpen] = useState(false);
 
     const openHandler = () => {
-        setIsOpen((openTab) => !isOpen); 
+        setIsOpen((isOpen) => !isOpen); 
     };
 
     return (
