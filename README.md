@@ -1,8 +1,11 @@
 # P7_Kasa
 
-Une fois le projet installé, rendez-vous sur http://localhost:3000/ 
+![Kasa_banner](https://user-images.githubusercontent.com/113694736/222081405-f5315dce-6c0a-4ec6-ba9f-b8f596eebf6f.png)
 
 Création d'une application de location de logements avec React
+
+Une fois le projet installé, rendez-vous sur http://localhost:3000/ 
+
 
 ## Langages utilisés :
 
